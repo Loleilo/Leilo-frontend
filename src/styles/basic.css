@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-size: 24px;
+}
+
+a{
+    color: deepskyblue;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+input[type=button], input[type=submit]{
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+}
+
+input[type=button]:hover, input[type=submit]:hover{
+    background-color: coral;
+}
