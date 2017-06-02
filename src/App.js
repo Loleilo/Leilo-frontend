@@ -1,7 +1,9 @@
 import React from 'react';
 import * as API from './data/apicall';
-import Login from "./components/Login";
-import Dashboard from "./components/Dashboard";
+import Login from "./components/app/Login";
+import Dashboard from "./components/app/Dashboard";
+import './styles/bootstrap/bootstrap.css';
+import './styles/basic.css';
 
 class App extends React.Component {
     constructor() {
@@ -48,9 +50,9 @@ class App extends React.Component {
         if (this.state.isLoggedIn) {
 
             return (
-               <Dashboard
-                   onLogout={()=>this.logout()}
-               />
+                <Dashboard
+                    onLogout={()=>this.logout()}
+                />
             );
         } else {
             return (

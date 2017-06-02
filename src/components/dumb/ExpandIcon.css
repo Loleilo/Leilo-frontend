@@ -1,0 +1,11 @@
+.expand-icon{
+    border-style: none;
+    background-color: #9da0a4;
+    padding: 10px;
+    margin: 5px;
+    outline: none;
+}
+
+.expand-icon:hover{
+    background-color: #0074D9;
+}

@@ -1,0 +1,11 @@
+.entity-view {
+    color: white;
+    background-color: #7f7f7f;
+    padding: 3px;
+}
+
+.entity-view .entity-value {
+    background-color: #9da0a4;
+    margin: 5px;
+    padding: 10px;
+}

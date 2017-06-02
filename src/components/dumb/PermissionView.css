@@ -1,0 +1,11 @@
+.permission-view{
+    padding-left: 10px;
+}
+
+.permission-view .perm-disabled{
+    background-color: #aa3a30;
+}
+
+.permission-view .perm-enabled{
+    background-color: #ff8000;
+}
