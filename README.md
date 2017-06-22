@@ -1,3 +1,3 @@
-# Leilo ReactJS frontend
+# Leilo ReactJS frontend - OUTDATED VERSION
 
-A webapp interface to Leilo-API
+See Leilo-frontend2
